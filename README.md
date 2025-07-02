@@ -1,60 +1,88 @@
-<b>Tic Tac Toe - HTML/CSS/JS Game</b>
 
-Description:
+# 🎮 Tic Tac Toe with AI & Random Facts
 
-       This is a stylish browser-based Tic Tac Toe game built using plain HTML, CSS, and JavaScript. The game offers a modern, responsive design with animated interactions and multiple play modes. It also includes a unique twist: random fun facts pop up during gameplay to keep the experience engaging and surprising.
+An enhanced **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**, featuring:
 
-Features:
+* Player vs Player mode
+* Player vs Computer mode with adjustable difficulty
+* Fun twist: **random facts popup** during gameplay!
 
-    Player Modes:
+---
 
-                    Player vs Player (PVP): Two players can take turns playing on the same device.
-                    
-                    Player vs Computer (PVC): Play against an AI opponent.
+## 🧩 Features
 
-Difficulty Levels:
+* ✅ **Modern UI** with smooth hover effects and responsive layout
+* 🤖 **AI Opponent** in easy, medium, and hard difficulty levels (currently uses random logic; can be expanded)
+* 🔁 **Reset Game** button to restart any time
+* 💡 **Random Fact Popups** pulled from the [uselessfacts API](https://uselessfacts.jsph.pl/) to add fun to your gameplay
 
-    When playing against the computer, you can choose from three difficulty levels:
-  
-                    Easy
-                    
-                    Medium
-                    
-                    Hard
+---
 
-Responsive and Animated UI:
+## 📁 Files
 
-                    Sleek black-and-blue card-style interface.
-                    
-                    Hover effects and subtle animations for buttons and game tiles.
-                    
-                    Smooth transitions between menus and gameplay screens.
+| File         | Description                                                                    |
+| ------------ | ------------------------------------------------------------------------------ |
+| `index.html` | Main HTML file containing all game logic, layout, and styling (self-contained) |
 
-Random Fun Facts:
-                    
-                    Fun and surprising facts are fetched from an online API.
-                    
-                    Facts appear in pop-up cards during the game.
-                    
-                    Multiple fact pop-ups appear at random intervals to keep the game lively.
+---
 
-Game Board:
-                    
-                    3x3 grid with animated, clickable cells.
-                    
-                    Instant feedback when a move is made.
-                    
-                    Detects win, lose, or draw conditions.
+## 🚀 Getting Started
 
-Reset Function:
+1. **Download** or **clone** the repository.
 
-                    A "Reset Game" button lets you restart the game at any time.
+2. Open the `index.html` file in your browser:
 
-How to Run:
+   ```bash
+   open index.html
+   ```
 
-                    Download or clone the project folder.
+   or simply double-click the file.
 
-                    Open index.html in your browser.
+3. Select your mode and difficulty — and start playing!
 
-Select your preferred mode and difficulty, then enjoy the game.
+---
 
+## 🕹️ Game Modes
+
+* **Player vs Player (PvP):**
+  Two users take turns playing on the same screen.
+
+* **Player vs Computer (PvC):**
+  Play against a basic AI with difficulty levels:
+
+  * Easy: Random moves
+  * Medium: Same (placeholder)
+  * Hard: Same (placeholder)
+
+> 💡 *You can expand difficulty by integrating Minimax or heuristic-based AI.*
+
+---
+
+## 🔍 Fun Extras
+
+* 🧠 **Random Fact Popups:**
+  Fetched every few seconds from a public API and shown in styled popups.
+
+---
+
+## 🧱 Built With
+
+* **HTML5** – Structure
+* **CSS3** – Styling & Animations
+* **Vanilla JavaScript** – Game logic & API calls
+* **[UselessFacts API](https://uselessfacts.jsph.pl/)** – For trivia popups
+
+---
+
+## 📌 To Do / Improvements
+
+* Implement true AI logic for Medium and Hard modes (Minimax algorithm)
+* Add sound effects and animations
+* Mobile responsiveness improvements
+* Score tracking system
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning and personal use.
