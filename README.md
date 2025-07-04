@@ -1,88 +1,61 @@
+# CYBER TAC - Cyberpunk Tic Tac Toe
 
-# 🎮 Tic Tac Toe with AI & Random Facts
+![Cyber TAC Screenshot](https://i.postimg.cc/FHSFpF5d/Screenshot-2025-07-04-130330.png)
 
-An enhanced **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**, featuring:
+A futuristic cyberpunk-themed Tic Tac Toe game with neon aesthetics and smooth animations.
 
-* Player vs Player mode
-* Player vs Computer mode with adjustable difficulty
-* Fun twist: **random facts popup** during gameplay!
+## 🚀 Live Demo
 
----
+Play the game here: [https://cybertac.netlify.app/](https://cybertac.netlify.app/)
 
-## 🧩 Features
+## ✨ Features
 
-* ✅ **Modern UI** with smooth hover effects and responsive layout
-* 🤖 **AI Opponent** in easy, medium, and hard difficulty levels (currently uses random logic; can be expanded)
-* 🔁 **Reset Game** button to restart any time
-* 💡 **Random Fact Popups** pulled from the [uselessfacts API](https://uselessfacts.jsph.pl/) to add fun to your gameplay
+- 🕹️ Classic Tic Tac Toe with cyberpunk twist
+- 🔵⚡ Neon blue/purple cyberpunk aesthetic
+- 🤖 Three AI difficulty levels (Easy, Medium, Hard)
+- 👥 Player vs Player and Player vs Computer modes
+- 💾 Persistent game state
+- ℹ️ Random cyber-facts display
+- 📱 Fully responsive design
 
----
+## 🛠️ Technologies Used
 
-## 📁 Files
+- HTML5
+- CSS3 (with custom properties)
+- JavaScript (ES6)
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/) (Orbitron & Rajdhani)
+- [Useless Facts API](https://uselessfacts.jsph.pl/)
 
-| File         | Description                                                                    |
-| ------------ | ------------------------------------------------------------------------------ |
-| `index.html` | Main HTML file containing all game logic, layout, and styling (self-contained) |
+## 🎮 How to Play
 
----
+1. Choose game mode (Player vs Player or Player vs Computer)
+2. Select difficulty if playing against computer
+3. Click on cells to make your move (X goes first)
+4. First to get 3 in a row wins!
+5. Click "Reset" to start a new game
 
-## 🚀 Getting Started
+## 🌐 Browser Support
 
-1. **Download** or **clone** the repository.
-
-2. Open the `index.html` file in your browser:
-
-   ```bash
-   open index.html
-   ```
-
-   or simply double-click the file.
-
-3. Select your mode and difficulty — and start playing!
-
----
-
-## 🕹️ Game Modes
-
-* **Player vs Player (PvP):**
-  Two users take turns playing on the same screen.
-
-* **Player vs Computer (PvC):**
-  Play against a basic AI with difficulty levels:
-
-  * Easy: Random moves
-  * Medium: Same (placeholder)
-  * Hard: Same (placeholder)
-
-> 💡 *You can expand difficulty by integrating Minimax or heuristic-based AI.*
-
----
-
-## 🔍 Fun Extras
-
-* 🧠 **Random Fact Popups:**
-  Fetched every few seconds from a public API and shown in styled popups.
-
----
-
-## 🧱 Built With
-
-* **HTML5** – Structure
-* **CSS3** – Styling & Animations
-* **Vanilla JavaScript** – Game logic & API calls
-* **[UselessFacts API](https://uselessfacts.jsph.pl/)** – For trivia popups
-
----
-
-## 📌 To Do / Improvements
-
-* Implement true AI logic for Medium and Hard modes (Minimax algorithm)
-* Add sound effects and animations
-* Mobile responsiveness improvements
-* Score tracking system
-
----
+Tested and works on:
+- Chrome (latest)
+- Firefox (latest)
+- Edge (latest)
+- Safari (latest)
+- Mobile browsers (Chrome, Safari)
 
 ## 📜 License
 
-This project is open-source and free to use for learning and personal use.
+MIT License - Free to use and modify
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## 📧 Contact
+
+For questions or feedback, please open an issue on GitHub.
+
+---
+
+**Enjoy the game!** ✨🚀
